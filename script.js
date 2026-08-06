@@ -1,6 +1,6 @@
 const flower_btn = document.getElementById("flower_btn");
 const click_sounds = document.querySelectorAll(".sound");
-const click_sound = new Audio("/audio/hover_click.mp3");
+const click_sound = new Audio("../audio/hover_click.mp3");
 const rightNavItems = document.getElementById("right_bar_items");
 
 let spin_degree = 0;
