@@ -9,12 +9,19 @@
 <body>
     <nav id="navigation_bar">
         <!--LEFT PART OF NAV BAR-->
-        <div id="left_bar_items">
-            <h2 style="line-height: 0.8;">
-                <a class="sound" id="temp_logo" href="../index.html">Ariana Grande<br>
-                    <span style="font-size: 60%;">FAN PAGE</span>
-                </a>
-            </h2>
+        <div id="left_container">
+            <div id="left_bar_items">
+                <h2 style="line-height: 0.8;">
+                    <a class="sound" id="temp_logo" href="index.html">Ariana Grande<br>
+                        <span style="font-size: 60%;">FAN PAGE</span>
+                    </a>
+                </h2>
+            </div>
+            <form id="search">
+                <span style="font-size: 40px;">⌕</span>
+                <input id="search_input" type="text" placeholder="search here ♡">
+                <div id="suggestion_box"> </div>
+            </form>
         </div>
 
         <!--RIGHT PART OF NAV BAR-->
@@ -31,43 +38,191 @@
         <button class="sound" id="flower_btn"><img src="../images/menu_flower.png" style="width: 40px;"></button>
     </nav>
 
-    <div class="main_page">
-        <div id="main_img_carousel">
-            <div id="main_img_holder">
-                <img class="active" src="../images/Ariana_Grande_Main_Image1.webp">
-                <img src="../images/Ariana_Grande_Main_Image2.jpg">
-                <img src="../images/Ariana_Grande_Main_Image3.jpg">
-                
-                <div id="main_img_controls">
-                    <button class="sound" id="main_prevBtn">&#10094;</button>
-                    <button class="sound" id="main_nextBtn">&#10095;</button>
-                </div>
-
-                <figcaption class="caption active" id="carousel-1" style="font-size: 120%;">
-                    Ariana Grande Eternal Sunshine Photo Shoot
-                </figcaption>
-                <figcaption class="caption" id="carousel-1" style="font-size: 120%;">
-                    Ariana Grande in the Grammys 2024
-                </figcaption>
-                <figcaption class="caption" id="carousel-1" style="font-size: 120%;">
-                    Ariana Grande on the Voice
-                </figcaption>
-                
-            </div>
-        </div>
-
-        <p>Positions (commonly shortened as POS) is the sixth studio album by American singer Ariana Grande. It was released on October 30, 2020, by Republic Records. Centering on themes of romantic devotion, healing of the inner-self, physical attraction, and combating negativity, Positions sonically expands on the trap-infused R&B and pop first seen in its highly acclaimed predecessors, Sweetener (2018) and Thank U, Next (2019). Strings are present on the majority of the songs featured on the album. Used to sonically tie the album together, the strings contrast to the trap beats to provide a timeless-yet-modern feel.</p>
-        <br>
-        <p>Upon release, Positions was met with generally favorable reviews from critics and fans alike. Grande's vocals were universally praised, though the album's production split listeners. A commercial success, the album debuted at number one on the US Billboard 200, becoming Grande's third consecutive, and fifth overall album to do so.</p>
-        <br>
-        <p>On February 19, 2021, a deluxe version of the album was released with five new tracks, including a remix of "34+35" featuring American rappers Megan Thee Stallion and Doja Cat. Following the deluxe's release, Positions achieved more chart success, climbing back into the top 5 of the US Billboard 200.</p>
-        <br>
-        <p>The album received favorable reviews (despite not breaking any new ground) from music critics. Alexa Camp of "Slant" believed it did not offer enough new ideas or innovation. "Too many of the songs on Positions rely on the same mid-tempo trap-pop that populated Grande's previous two efforts, particularly Thank U, Next. What once seemed refreshing in its minimalism is quickly starting to feel insubstantial. Editor Hannah Mylrea describes it as "a pleasant listen, as an introduction to the next era of Grande’s career, it’s solid, but you can’t help but feel it’s missing some of her trademark sparkle." Compared to her previous albums , Mylrea states how "strength and perseverance threads throughout ‘Positions’, an album that finds Grande thriving. Positions "lacks the megawatt pop belters of previous releases" where The Guardian's Alexis Petridis agrees, writing: "Positions deals in polished professionalism, not pulse-quickening excitement. There isn't an obvious standout track...the overall effect is of individual tracks bleeding into one long slow-motion shot" rating the album 3 out of 5 stars.</p>
-        <br>
-        <p>Due to the album's weak commercial performance compared to her prior albums and other factors, some fans disliked the album. Ariana later addressed some reactions towards the album on social media and in interviews. On August 3, 2024, a fan commented on an Instagram post, stating that Eternal Sunshine is Grande's worst era and that they prefer Positions. Grande responded to this comment, saying "please go enjoy listening to it then ! so glad you finally like it. ♡ xx". On November 6, 2024, Ariana appeared on the Las Culturistas podcast with Matt Rodgers and Bowen Yang and gave a retrospective on the album: “As far as what my fans were saying, I got a little 'this is not what we want vibes' [...] I just remember that really put me in a cage of judging every single piece, I like scrapped so many things that I was going to put out.”</p>
-    </div>
-
     <br>
-    <div>font "Karrilee" obtained from <a href="https://www.onlinewebfonts.com/icon"> svg icons</a> is licensed by CC BY 4.0</div>
+    <br>
+    <br>
+    <div class="full_page">
+        <div class="main_page">
+            <h2 id="about" class="subheading">About <span style="font-size: 30px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <div id="main_img_carousel">
+                <div id="album_cover">
+                    <img class="active" src="../images/pos_album_cover.webp">
+                    <img src="https://i.makeagif.com/media/4-17-2026/eocfub.gif">
+                    <img src="../images/pos_deluxe.webp">
+                    <img src="../images/pos_live_album.webp">
+                    <img src="../images/pos_alt1.webp">
+                    <img src="../images/pos_alt2.webp">
+                    
+                    <div id="main_img_controls">
+                        <button class="sound" id="main_prevBtn">&#10094;</button>
+                        <button class="sound" id="main_nextBtn">&#10095;</button>
+                    </div>
+
+                    <figcaption class="caption active" style="font-size: 120%;">
+                        Positions Official Album Cover
+                    </figcaption>
+                    <figcaption class="caption" style="font-size: 120%;">
+                        Positions Animated Album Cover
+                    </figcaption>
+                    <figcaption class="caption" style="font-size: 120%;">
+                        Positions Official Deluxe Album Cover
+                    </figcaption>
+                    <figcaption class="caption" style="font-size: 120%;">
+                        Positions Live Performance EP Cover
+                    </figcaption>
+                    <figcaption class="caption" style="font-size: 120%;">
+                        Positions Alternate Album Cover 1
+                    </figcaption>
+                    <figcaption class="caption" style="font-size: 120%;">
+                        Positions Alternate Album Cover 2
+                    </figcaption>
+                    
+                </div>
+            </div>
+
+            <p>Positions (commonly shortened as POS) is the sixth studio album by American singer Ariana Grande. It was released on October 30, 2020, by Republic Records. Centering on themes of romantic devotion, healing of the inner-self, physical attraction, and combating negativity, Positions sonically expands on the trap-infused R&B and pop first seen in its highly acclaimed predecessors, Sweetener (2018) and Thank U, Next (2019). Strings are present on the majority of the songs featured on the album. Used to sonically tie the album together, the strings contrast to the trap beats to provide a timeless-yet-modern feel.</p>
+            <br>
+            <p>Upon release, Positions was met with generally favorable reviews from critics and fans alike. Grande's vocals were universally praised, though the album's production split listeners. A commercial success, the album debuted at number one on the US Billboard 200, becoming Grande's third consecutive, and fifth overall album to do so.</p>
+            <br>
+            <p>On February 19, 2021, a deluxe version of the album was released with five new tracks, including a remix of "34+35" featuring American rappers Megan Thee Stallion and Doja Cat. Following the deluxe's release, Positions achieved more chart success, climbing back into the top 5 of the US Billboard 200.</p>
+            <br>
+            <h2 id="background" class="subheading">Background <span style="font-size: 30px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <p>On May 10, 2019, Grande posted a few Instagram stories saying "I have no plans for music (well not for ag6) but I'm always making it and I'm so happy and thank god for it" tagging Tommy Brown and Mr. Franks, although she started working on the album the previous month.</p>
+            <br>
+            <figure class="right_side_images">
+                <img src="../images/pos_recording.webp">
+                <figcaption class="page_caption">
+                    Ariana in the studio recoding for Positions
+                </figcaption>
+            </figure>
+            <p>On March 24, 2020, Grande posted a 45 second snippet (later revealed to be "Nasty") on social media, confirming that the singer was working on a new album. Grande went relatively silent on new music for the following months, until September 14, 2020, when she posted an a-capella snippet of a song she was vocal arranging (later revealed to be "Positions") with the caption "brb". On October 14, 2020, she posted to her now-defunct Twitter acount saying, "I can't wait to give you my album this month", confirming both the existence, and release date, of her next album. A few days later, Grande posted a video of her typing out the word "positions" on a keyboard and launched two countdowns onto her website, counting down to October 23 and October 30, 2020.</p>
+            <br>
+            <p>Soon after the release of Positions, Tommy Parker (a producer who helped work on "love language" and "worst behavior") revealed that Grande and Tommy Brown had started working on an album in early-2020 and invited him to come help. Due to the COVID-19 pandemic, Grande eventually scrapped that entire early version of what would be her sixth studio album, and subsequently created Positions in quarantine instead.</p>
+            <br>
+            <p>On the fifth anniversary of the album, 7" vinyl versions of "34+35" and "Positions" were released. An extended play with Vevo's Official Live Performances of "pov", "positions", "safety net", "my hair", "34+35" and "off the table" was released on all streaming platforms.</p>
+            <br>
+            <figure class="left_side_images">
+                <img src="https://api.davemeyers.com/wp-content/uploads/2023/11/Ariana-Grande-Positions-2.jpg">
+                <figcaption class="page_caption">
+                    Ariana in the Positions Photoshoot
+                </figcaption>
+            </figure>
+            <p>On October 23, 2020, Grande revealed the album's cover art, shot by longtime collaborator and friend, Dave Meyers. The cover art was shot 2 months beforehand, on September 12th. The cover features a closeup shot of Grande looking away from the camera with her hands on her jaw. A minty-green filter is laced over the image, portraying the album's visual aesthetic: 60s-mod. A white border with rounded corners frames the image, with the album title at the bottom of the border. Two exclusive CD editions of Positions released with alternate covers. The Deluxe cover is the same as the standard cover except the word "DELUXE" was added around the border.</p>
+            <br>
+            <p>On February 1, 2021, Grande announced a deluxe edition of Positions, featuring four new tracks and the remix of "34+35" featuring Doja Cat and Megan Thee Stallion On February 9, 2021, Grande announced the release date of this reissue: February 19. Grande confirmed the titles of the four new tracks in the 34+35 remix coundown Q&A livestream.</p>
+            <br>
+            <h2 id="vevo" class="subheading">Vevo Live Performance <span style="font-size: 30px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <p>In the summer of 2021, a series of live performance recordings of the album was released in partnership with Vevo. Ariana performed "POV", "Positions", "Safety Net", "My Hair", "34+35", and "Off The Table". She was also joined by The Weeknd and Ty Dolla Sign for their respective collaborations. The live recordings were released on streaming services on October 30, 2025, for the fourth anniversary of the album.</p>
+            <br>
+            <h2 id="recep" class="subheading">Critical Reception <span style="font-size: 30px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <p>The album received favorable reviews (despite not breaking any new ground) from music critics. Alexa Camp of "Slant" believed it did not offer enough new ideas or innovation. "Too many of the songs on Positions rely on the same mid-tempo trap-pop that populated Grande's previous two efforts, particularly Thank U, Next. What once seemed refreshing in its minimalism is quickly starting to feel insubstantial. Editor Hannah Mylrea describes it as "a pleasant listen, as an introduction to the next era of Grande's career, it's solid, but you can't help but feel it's missing some of her trademark sparkle." Compared to her previous albums , Mylrea states how "strength and perseverance threads throughout 'Positions', an album that finds Grande thriving. Positions "lacks the megawatt pop belters of previous releases" where The Guardian's Alexis Petridis agrees, writing: "Positions deals in polished professionalism, not pulse-quickening excitement. There isn't an obvious standout track...the overall effect is of individual tracks bleeding into one long slow-motion shot" rating the album 3 out of 5 stars.</p>
+            <br>
+            <figure class="right_side_images">
+                <img src="https://ancre-magazine.com/wp-content/uploads/2021/07/ariana-grande-positions-live-vevo.png">
+                <figcaption class="page_caption">
+                    Ariana singing "Positions" in the Live Vevo Positions Performance
+                </figcaption>
+            </figure>
+            <p>While the album received praise for its vocals and musical arrangements, others noted there's much to be desired lyrically. Critics such as Alim Kheraj of i-D highlight the raunchiness of the album's entirety: "Ariana has one thing on her mind: sex. So much sex, the subsequent 13 tracks are some of the horniest songs that Ariana has ever released." Kate Soloman of The Telegraph agrees that "There are no tentpole hits, no obvious hooks and far too many words crammed into 14 relatively short and sometimes samey songs. But it explores new territory for the singer: new relationships, a new sound, a new sense of self."</p>
+            <br>
+            <p>However, critics such as The New Statesman's Emily Bootle, highlight the positives, "Positions is about emerging on the other side... with "no dud tracks". She emphasizes Grande's confidence and maturity with a sense of individual identity in "creating era-capturing music."</p>
+            <br>
+            <h2 id="commercial" class="subheading">Commercial Performance <span style="font-size: 30px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <p>Positions debuted at No. 1 on the US Billboard 200 with 174,000 album-equivalent units, of which 42,000 were pure album sales. This is Grande's fifth studio album to debut at the top of the chart since her previous Dangerous Woman debuted and peaked at No. 2, while Yours Truly, My Everything, Sweetener and Thank U, Next all debuted at No. 1 in 2013, 2014, 2018 and 2019 respectively. In addition, Positions earned the second-largest streaming week for a non-R&B/hip-hop or Latin album in 2020 in the US (173.54 million).</p>
+            <br>
+            <figure class="left_side_images">
+                <img src="https://pbs.twimg.com/media/G1Z3DGzWQAAAEGl.jpg">
+                <figcaption class="page_caption">
+                    Ariana in the leaked scrapped music video for "pov". It is unclear why the video was never released.
+                </figcaption>
+            </figure>
+            <p>It also debuted at No. 1 on the UK Albums chart, racking up 27,500 chart sales. On the issue date November 14, 2020, every song on the album was charted on the Hot 100. The highest peaked song is "Positions" debuting at number 1. The lowest song being "Love Language" debuting at number 75.</p>
+            <br>
+            <p>Due to the album's weak commercial performance compared to her prior albums and other factors, some fans disliked the album. Ariana later addressed some reactions towards the album on social media and in interviews. On August 3, 2024, a fan commented on an Instagram post, stating that Eternal Sunshine is Grande's worst era and that they prefer Positions. Grande responded to this comment, saying "please go enjoy listening to it then ! so glad you finally like it. ♡ xx". On November 6, 2024, Ariana appeared on the Las Culturistas podcast with Matt Rodgers and Bowen Yang and gave a retrospective on the album: “As far as what my fans were saying, I got a little 'this is not what we want vibes' [...] I just remember that really put me in a cage of judging every single piece, I like scrapped so many things that I was going to put out.”</p>
+            <br>
+            <h2 id="sources" class="subheading">Sources <span style="font-size: 30px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <p>Navigation Bar - Black & White Flower Image - Source: <a href="https://png.pngtree.com/png-vector/20240312/ourmid/pngtree-black-and-white-cute-flower-png-image_11935120.png" target="_blank" rel="noopener noreferrer">https://png.pngtree.com/png-vector/20240312/ourmid/pngtree-black-and-white-cute-flower-png-image_11935120.png</a></p>
+            <p>About - Positions Official Album Cover Image - Source: <a href="https://arianagrande.fandom.com/wiki/Positions?file=Positions_%E2%80%93_Album_Cover.jpg" target="_blank" rel="noopener noreferrer">https://arianagrande.fandom.com/wiki/Positions?file=Positions_%E2%80%93_Album_Cover.jpg</a></p>
+            <p>About - Positions Animated Album Cover Image - Source: <a href="https://i.makeagif.com/media/4-17-2026/eocfub.gif" target="_blank" rel="noopener noreferrer">https://i.makeagif.com/media/4-17-2026/eocfub.gif</a></p>
+            <p>About - Positions Official Deluxe Album Cover Image - Source: <a href="https://arianagrande.fandom.com/wiki/Positions?file=Positions+%E2%80%93+Deluxe+Album+Cover.jpg" target="_blank" rel="noopener noreferrer">https://arianagrande.fandom.com/wiki/Positions?file=Positions+%E2%80%93+Deluxe+Album+Cover.jpg</a></p>
+            <p>About - Positions Live Performance EP Cover Image - Source: <a href="https://arianagrande.fandom.com/wiki/Positions?file=Vevo-Sessions-Cover.jpeg" target="_blank" rel="noopener noreferrer">https://arianagrande.fandom.com/wiki/Positions?file=Vevo-Sessions-Cover.jpeg</a></p>
+            <p>About - Positions Alternate Album Cover 1 Image - Source: <a href="https://arianagrande.fandom.com/wiki/Positions?file=Positions+%E2%80%93+Limited+Edition+Cover+1.jpg" target="_blank" rel="noopener noreferrer">https://arianagrande.fandom.com/wiki/Positions?file=Positions+%E2%80%93+Limited+Edition+Cover+1.jpg</a></p>
+            <p>About - Positions Alternate Album Cover 2 Image - Source: <a href="https://arianagrande.fandom.com/wiki/Positions?file=Positions+%E2%80%93+Limited+Edition+Cover+2.jpg" target="_blank" rel="noopener noreferrer">https://arianagrande.fandom.com/wiki/Positions?file=Positions+%E2%80%93+Limited+Edition+Cover+2.jpg</a></p>
+            <p>Background - Ariana in the studio recoding for Positions Image - Source: <a href="https://arianagrande.fandom.com/wiki/Positions?file=TBIM_studio.jpg" target="_blank" rel="noopener noreferrer">https://arianagrande.fandom.com/wiki/Positions?file=TBIM_studio.jpg</a></p>
+            <p>Background - Ariana in the Positions Photoshoot Image - Source: <a href="https://api.davemeyers.com/wp-content/uploads/2023/11/Ariana-Grande-Positions-2.jpg" target="_blank" rel="noopener noreferrer">https://api.davemeyers.com/wp-content/uploads/2023/11/Ariana-Grande-Positions-2.jpg</a></p>
+            <p>Critical Reception - Ariana singing "Positions" in the Live Vevo Positions Performance Image - Source: <a href="https://ancre-magazine.com/wp-content/uploads/2021/07/ariana-grande-positions-live-vevo.png" target="_blank" rel="noopener noreferrer">https://ancre-magazine.com/wp-content/uploads/2021/07/ariana-grande-positions-live-vevo.png</a></p>
+            <p>Commercial Performance - Ariana in the Scrapped Music Video for "pov" Image - Source: <a href="https://pbs.twimg.com/media/G1Z3DGzWQAAAEGl.jpg" target="_blank" rel="noopener noreferrer">https://pbs.twimg.com/media/G1Z3DGzWQAAAEGl.jpg</a></p>
+            <p>font "Karrilee" obtained from <a href="https://www.onlinewebfonts.com/icon"> svg icons</a> is licensed by CC BY 4.0</p>
+            <p>ALL OF THE WRITTEN MATERIAL ABOVE WERE COMPLETELY SOURCED AND TAKEN FROM THE OFFICIAL ARIANA GRANDE FANDOM WITH MINOR MODIFICATIONS. THE LINK TO THE WIKI IS HERE: <a href="https://arianagrande.fandom.com/wiki/Ariana_Grande">https://arianagrande.fandom.com/wiki/Ariana_Grande</a></p>
+        </div>
+        <div class="side_content">
+            <h2 class="toc_subheading">Table of Contents <span style="font-size: 20px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <a class="sound" href="#about"><span style="font-size: 35px;">⋆ </span>About</a>
+            <br>
+            <a class="sound" href="#background"><span style="font-size: 35px;">⋆ </span>Background</a>
+            <br>
+            <a class="sound" href="#vevo"><span style="font-size: 35px;">⋆ </span>Vevo Live Performance</a>
+            <br>
+            <a class="sound" href="#recep"><span style="font-size: 35px;">⋆ </span>Critical Reception</a>
+            <br>
+            <a class="sound" href="#commercial"><span style="font-size: 35px;">⋆ </span>Commercial Performance</a>
+            <br>
+            <a class="sound" href="#sources"><span style="font-size: 35px;">⋆ </span>Sources</a>
+            <br>
+            <h2 class="toc_subheading">Other <span style="font-size: 20px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <a class="sound" href="index.html"><span style="font-size: 35px;">⋆ </span>About Ariana ♡</a>
+            <br>
+            <a class="sound" href="yours_truly.html"><span style="font-size: 35px;">⋆ </span>Yours Truly (Album)</a>
+            <br>
+            <a class="sound" href="my_everything.html"><span style="font-size: 35px;">⋆ </span>My Everything (Album)</a>
+            <br>
+            <a class="sound" href="dangerous_woman.html"><span style="font-size: 35px;">⋆ </span>Dangerous Woman (Album)</a>
+            <br>
+            <a class="sound" href="sweetener.html"><span style="font-size: 35px;">⋆ </span>Sweetener (Album)</a>
+            <br>
+            <a class="sound" href="tyn.html"><span style="font-size: 35px;">⋆ </span>thank u, next (Album)</a>
+            <br>
+            <a class="sound" href="eternal_sunshine.html"><span style="font-size: 35px;">⋆ </span>eternal sunshine (Album)</a>
+            <br>
+            <a class="sound" href="petal.html"><span style="font-size: 35px;">⋆ </span>petal (Album)</a>
+            <br>
+            <h2 class="toc_subheading">External Links <span style="font-size: 20px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <a class="sound" href="https://www.arianagrande.com/" target="_blank"><span style="font-size: 35px;">⋆ </span>Official Ariana Grande Website</a>
+            <br>
+            <a class="sound" href="https://arianagrandefragrances.com/" target="_blank"><span style="font-size: 35px;">⋆ </span>Official Ariana Grande Fragrance Website</a>
+            <br>
+            <a class="sound" href="https://rembeauty.com/" target="_blank"><span style="font-size: 35px;">⋆ </span>R.E.M Beauty</a>
+            <br>
+            <a class="sound" href="http://facebook.com/arianagrande" target="_blank"><span style="font-size: 35px;">⋆ </span>Ariana Grande on Facebook</a>
+            <br>
+            <a class="sound" href="http://instagram.com/arianagrande" target="_blank"><span style="font-size: 35px;">⋆ </span>Ariana Grande on Instagram</a>
+            <br>
+            <a class="sound" href="http://tiktok.com/@arianagrande" target="_blank"><span style="font-size: 35px;">⋆ </span>Ariana Grande on TikTok</a>
+            <br>
+            <a class="sound" href="https://www.youtube.com/@ArianaGrande" target="_blank"><span style="font-size: 35px;">⋆ </span>Ariana Grande on YouTube</a>
+            <br>
+            <a class="sound" href="https://www.youtube.com/@ArianaGrandeVevo" target="_blank"><span style="font-size: 35px;">⋆ </span>Ariana Grande Vevo Channel</a>
+            <br>
+            <a class="sound" href="https://www.snapchat.com/add/moonlightbae" target="_blank"><span style="font-size: 35px;">⋆ </span>Ariana Grande on Snapchat</a>
+        </div>
+    </div>
 </body>
 </html>

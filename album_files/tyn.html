@@ -9,12 +9,19 @@
 <body>
     <nav id="navigation_bar">
         <!--LEFT PART OF NAV BAR-->
-        <div id="left_bar_items">
-            <h2 style="line-height: 0.8;">
-                <a class="sound" id="temp_logo" href="../index.html">Ariana Grande<br>
-                    <span style="font-size: 60%;">FAN PAGE</span>
-                </a>
-            </h2>
+        <div id="left_container">
+            <div id="left_bar_items">
+                <h2 style="line-height: 0.8;">
+                    <a class="sound" id="temp_logo" href="index.html">Ariana Grande<br>
+                        <span style="font-size: 60%;">FAN PAGE</span>
+                    </a>
+                </h2>
+            </div>
+            <form id="search">
+                <span style="font-size: 40px;">⌕</span>
+                <input id="search_input" type="text" placeholder="search here ♡">
+                <div id="suggestion_box"> </div>
+            </form>
         </div>
 
         <!--RIGHT PART OF NAV BAR-->
@@ -31,43 +38,167 @@
         <button class="sound" id="flower_btn"><img src="../images/menu_flower.png" style="width: 40px;"></button>
     </nav>
 
-    <div class="main_page">
-        <div id="main_img_carousel">
-            <div id="main_img_holder">
-                <img class="active" src="../images/Ariana_Grande_Main_Image1.webp">
-                <img src="../images/Ariana_Grande_Main_Image2.jpg">
-                <img src="../images/Ariana_Grande_Main_Image3.jpg">
-                
-                <div id="main_img_controls">
-                    <button class="sound" id="main_prevBtn">&#10094;</button>
-                    <button class="sound" id="main_nextBtn">&#10095;</button>
-                </div>
-                
-                <figcaption class="caption active" id="carousel-1" style="font-size: 120%;">
-                    Ariana Grande Eternal Sunshine Photo Shoot
-                </figcaption>
-                <figcaption class="caption" id="carousel-1" style="font-size: 120%;">
-                    Ariana Grande in the Grammys 2024
-                </figcaption>
-                <figcaption class="caption" id="carousel-1" style="font-size: 120%;">
-                    Ariana Grande on the Voice
-                </figcaption>
-
-            </div>
-        </div>
-
-        <p>Thank U, Next (stylized all in lowercase; commonly abbreviated as TUN) is Ariana Grande's fifth studio album. It was released on February 8, 2019, through Republic Records. The album was recorded between September and December 2018.</p>
-        <br>
-        <p>Three singles were released from the album, two of which debuted at number one on the US Billboard Hot 100. With this, Thank U, Next joined Daydream by Mariah Carey as the only albums by female artists to have multiple songs debut at number one. Grande also joined Carey and Britney Spears as the only female artists with multiple number-one debuts; overall she is the fifth artist after Justin Bieber and Drake.</p>
-        <br>
-        <p>Topping charts in many countries internationally, the song broke numerous streaming records, including the record for the most streams received by a song in a single day for a female artist on Spotify, as well as the largest on-demand streaming week ever recorded for a female artist in the US.</p>
-        <br>
-        <p>The album received universal acclaim from music critics. AllMusic editor Stephen Thomas Erlewine made an early review of the album. He noted the difference between Thank U, Next with Grande's previous album Sweetener saying that "this time Grande is swaggering with the confidence that comes with unquestioned stardom." He added that "the album feels slighter than Sweetener." Erlewine gave the album 4.5 out of 5 stars. Sal Cinquemani, writing on behalf of Slant Magazine, gave the album 3.5 out of 5 stars and stated that Thank U, Next is "easily Grande’s most sonically consistent effort to date, even if that means some of the album's sleek R&B tracks tend to blur together."</p>
-        <br>
-        <p>The album debuted at number 1 on the US Billboard 200 with 360,000 album-equivalent units being Grande's fourth number-one album in the United States. It broke the record for the largest streaming week for a pop album. All twelve songs from the album appeared simultaneously on the Billboard Hot 100 in the week ending February 23, 2019, and eleven of the tracks appeared in the top 40 of the chart. With this, Grande broke the record for the most simultaneous top 40 songs by a female artist.</p>
-    </div>
-
     <br>
-    <div>font "Karrilee" obtained from <a href="https://www.onlinewebfonts.com/icon"> svg icons</a> is licensed by CC BY 4.0</div>
+    <br>
+    <br>
+    <div class="full_page">
+        <div class="main_page">
+            <h2 id="about" class="subheading">About <span style="font-size: 30px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <div id="main_img_carousel">
+                <div id="album_cover">
+                    <img class="active" src="../images/tyn_album_cover.webp">
+                    <img src="../images/tyn_digital_cover.webp">
+                    <img src="../images/tyn_physical_explicit.webp">
+                    <img src="../images/tyn_physical_clean.webp">
+                    
+                    <div id="main_img_controls">
+                        <button class="sound" id="main_prevBtn">&#10094;</button>
+                        <button class="sound" id="main_nextBtn">&#10095;</button>
+                    </div>
+                    
+                    <figcaption class="caption active" id="carousel-1" style="font-size: 120%;">
+                        thank u, next Official Album Cover
+                    </figcaption>
+                    <figcaption class="caption" id="carousel-1" style="font-size: 120%;">
+                        thank u, next Official Digital Clean Album Cover
+                    </figcaption>
+                    <figcaption class="caption" id="carousel-1" style="font-size: 120%;">
+                        thank u, next Official Physical Explicit Album Cover
+                    </figcaption>
+                    <figcaption class="caption" id="carousel-1" style="font-size: 120%;">
+                        thank u, next Official Physical Clean Album Cover
+                    </figcaption>
+
+                </div>
+            </div>
+
+            <p>Thank U, Next (stylized all in lowercase; commonly abbreviated as TUN) is Ariana Grande's fifth studio album. It was released on February 8, 2019, through Republic Records. The album was recorded between September and December 2018.</p>
+            <br>
+            <p>Three singles were released from the album, two of which debuted at number one on the US Billboard Hot 100. With this, Thank U, Next joined Daydream by Mariah Carey as the only albums by female artists to have multiple songs debut at number one. Grande also joined Carey and Britney Spears as the only female artists with multiple number-one debuts; overall she is the fifth artist after Justin Bieber and Drake.</p>
+            <br>
+            <p>Topping charts in many countries internationally, the album broke numerous streaming records, including the record for the most streams received by a song in a single day for a female artist on Spotify, as well as the largest on-demand streaming week ever recorded for a female artist in the US.</p>
+            <br>
+            <h2 id="background" class="subheading">Background <span style="font-size: 30px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <p>During the Sweetener livestream on August 16, 2018, Grande confirmed that she would start working on her next album in September 2018. Tommy Brown shared a short snippet of a song on his Instagram story on October 4, 2018. Later that day, Grande shared a 45-second-snippet of a song on her Instagram with the caption "tell me how good it feels to be needed" which are lyrics from a song, later revealed to be titled "Needy". On November 1, 2018, Grande revealed on Twitter that she was finishing the album, but she later deleted the tweet. On November 3, 2018, Grande confirmed the title of the album, Thank U, Next.</p>
+            <br>
+            <figure class="right_side_images">
+                <img src="../images/tyn_early_tracklist.webp">
+                <figcaption class="page_caption">
+                    thank u, next early tracklist
+                </figcaption>
+            </figure>
+            <p>A music video for Grande's single "Breathin", from her previous album Sweetener, was released on November 7, 2018. In the video, a short scene shows a departures board, where some possible tracks from Thank U, Next are listed, including "NASA", "Imagine" and "Needy". Also, another short scene shows the board in the background blurred. The song titles "Make Up", "7 Rings", "Ghostin" and "Remember" could be seen. Grande also teased "Imagine", "7 Rings" and "Needy" in the music video for the album's title track, "Thank U, Next", released in November 2018.</p>
+            <br>
+            <p>On December 4, 2018, Grande revealed on Twitter that the album was finished. In an interview with Billboard, the album was described as "deep, bass-driven bangers with trap beats alternating with airy, sad ballads". On January 3, 2019, Grande confirmed on Twitter that "7 Rings" would be the second single from the album. Its track listing was revealed on January 22, 2019 on Instagram. The album was made available for pre-order on January 25, 2019.</p>
+            <br>
+            <figure class="left_side_images">
+                <img src="../images/tyn_photoshoot.webp">
+                <figcaption class="page_caption">
+                    Ariana in the thank u, next Photoshoot
+                </figcaption>
+            </figure>
+            <p>It was revealed on Grande's official Japanese Twitter account that a Deluxe Edition of the album would be released on June 26, Ariana's birthday, featuring the "7 Rings" remix featuring 2 Chainz, "Monopoly" with Victoria Monét, and a DVD with the music videos for "Thank U, Next", "7 Rings" and "Break Up With Your Girlfriend, I'm Bored". It is rumored that there was supposed to be a more fleshed-out deluxe, however it was eventually scrapped in favor of releasing K Bye For Now (SWT Live), a live album for the corresponding tour, along with featuring on the Charlie's Angels soundtrack.</p>
+            <br>
+            <p>Grande revealed that there would be a different version for the physical and digital album cover art. The digital version of the cover was revealed on January 23, 2019 and Grande stated that this was her favorite one yet. It features a pink background and an upside down photo of Grande in the middle, shot by Alfredo Flores, with the title of the album painted on her neck by Brian Nicholson. While the physical version, revealed two days later, features a black background. The dress worn in the album cover is also worn in the very first shot of "Break Up With Your Girlfriend, I'm Bored".</p>
+            <br>
+            <figure class="right_side_images">
+                <img src="../images/tyn_launch_party.webp">
+                <figcaption class="page_caption">
+                    Photobooth at the thank u, next Launch Party
+                </figcaption>
+            </figure>
+            <p>On October 1, 2018, Grande uploaded a photo at studio on her Instagram story. A day later, she uploaded more photos and revealed that at least nine songs were recorded, tagging songwriters and producers such as Kaydence, Victoria Monét, Tayla Parx, Tommy Brown, Charles Anderson (Scootie), and Mikey (from Social House). Tracking for vocals used high-end tube condensers familiar from Ariana's Sweetener sessions, with initial takes captured on a Neumann M 149 tube mic, before the team pivoted to a Telefunken ELA M 251 for some primary lead vocal recordings after finding "its tonal character more suited to Grande's voice", particularly those engineered by Billy Hickey.</p>
+            <br>
+            <p>Grande also confirmed that the tour for her album Sweetener would be combined with the tour for Thank U, Next. The dates for the North American leg of the Sweetener World Tour were announced on October 25, 2018. The tour began on March 18, 2019, in Albany, New York and ended on December 22, 2019, in Inglewood, California.</p>
+            <br>
+            <h2 id="commercial_recep" class="subheading">Commercial Performance & Critical Reception <span style="font-size: 30px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <p>The album received universal acclaim from music critics. AllMusic editor Stephen Thomas Erlewine made an early review of the album. He noted the difference between Thank U, Next with Grande's previous album Sweetener saying that "this time Grande is swaggering with the confidence that comes with unquestioned stardom." He added that "the album feels slighter than Sweetener." Erlewine gave the album 4.5 out of 5 stars. Sal Cinquemani, writing on behalf of Slant Magazine, gave the album 3.5 out of 5 stars and stated that Thank U, Next is "easily Grande's most sonically consistent effort to date, even if that means some of the album's sleek R&B tracks tend to blur together."</p>
+            <br>
+            <figure class="left_side_images">
+                <img src="https://www.billboard.com/wp-content/uploads/media/01-ariana-grande-7-rings-2019-billboard-1548.jpg">
+                <figcaption class="page_caption">
+                    Ariana grande in the music video for "7 Rings"
+                </figcaption>
+            </figure>
+            <p>After the release of Thank U, Next, it reached the top on US iTunes in just 5 minutes, becoming the fastest album in history to hit #1 on US iTunes.</p>
+            <br>
+            <p>The album debuted at number 1 on the US Billboard 200 with 360,000 album-equivalent units being Grande's fourth number-one album in the United States. It broke the record for the largest streaming week for a pop album. All twelve songs from the album appeared simultaneously on the Billboard Hot 100 in the week ending February 23, 2019, and eleven of the tracks appeared in the top 40 of the chart. With this, Grande broke the record for the most simultaneous top 40 songs by a female artist.</p>
+            <br>
+            <p>The album also broke yet another record of occupying the top three spots on the Billboard Hot 100 Singles chart, a record that was held by The Beatles for the last 55 years.</p>
+            <br>
+            <h2 id="sources" class="subheading">Sources <span style="font-size: 30px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <p>Navigation Bar - Black & White Flower Image - Source: <a href="https://png.pngtree.com/png-vector/20240312/ourmid/pngtree-black-and-white-cute-flower-png-image_11935120.png" target="_blank" rel="noopener noreferrer">https://png.pngtree.com/png-vector/20240312/ourmid/pngtree-black-and-white-cute-flower-png-image_11935120.png</a></p>
+            <p>About - thank u, next Official Album Cover Image - Source: <a href="https://arianagrande.fandom.com/wiki/Thank_U,_Next?file=Thank+U%2C+Next+-+Digital+Version.jpg" target="_blank" rel="noopener noreferrer">https://arianagrande.fandom.com/wiki/Thank_U,_Next?file=Thank+U%2C+Next+-+Digital+Version.jpg</a></p>
+            <p>About - thank u, next Official Digital Clean Album Cover Image - Source: <a href="https://images-na.ssl-images-amazon.com/images/I/81-EIBpsVgL._SL1500_.jpg" target="_blank" rel="noopener noreferrer">https://images-na.ssl-images-amazon.com/images/I/81-EIBpsVgL._SL1500_.jpg</a></p>
+            <p>About - thank u, next Official Physical Explicit Album Cover Image - Source: <a href="https://arianagrande.fandom.com/wiki/Thank_U,_Next?file=Thank+U%2C+Next+-+Explicit+Physical.webp" target="_blank" rel="noopener noreferrer">https://arianagrande.fandom.com/wiki/Thank_U,_Next?file=Thank+U%2C+Next+-+Explicit+Physical.webp</a></p>
+            <p>About - thank u, next Official Physical Clean Album Cover Image - Source: <a href="https://arianagrande.fandom.com/wiki/Thank_U,_Next?file=Thank+U%2C+Next+-+Physical+Version.jpg" target="_blank" rel="noopener noreferrer">https://arianagrande.fandom.com/wiki/Thank_U,_Next?file=Thank+U%2C+Next+-+Physical+Version.jpg</a></p>
+            <p>Background - thank u, next Early Tracklist Image - Source: <a href="https://arianagrande.fandom.com/wiki/Thank_U,_Next?file=Early_TUN_List.jpeg" target="_blank" rel="noopener noreferrer">https://arianagrande.fandom.com/wiki/Thank_U,_Next?file=Early_TUN_List.jpeg</a></p>
+            <p>Background - Ariana in thank u, next Photoshoot Image - Source: <a href="https://arianagrande.fandom.com/wiki/Thank_U,_Next?file=Tun-photoshoot-3.jpg" target="_blank" rel="noopener noreferrer">https://arianagrande.fandom.com/wiki/Thank_U,_Next?file=Tun-photoshoot-3.jpg</a></p>
+            <p>Background - Photobooth at the thank u, next Launch Party Image - Source: <a href="https://arianagrande.fandom.com/wiki/Thank_U,_Next?file=February_8%2C_2019_-_Photo_booth_at_TUN_Launch_Party_%281%29.jpg" target="_blank" rel="noopener noreferrer">https://arianagrande.fandom.com/wiki/Thank_U,_Next?file=February_8%2C_2019_-_Photo_booth_at_TUN_Launch_Party_%281%29.jpg</a></p>
+            <p>Commercial Performance and Critical Reception - Ariana in the Music Video for "7 Rings" Image - Source: <a href="https://www.billboard.com/wp-content/uploads/media/01-ariana-grande-7-rings-2019-billboard-1548.jpg" target="_blank" rel="noopener noreferrer">https://www.billboard.com/wp-content/uploads/media/01-ariana-grande-7-rings-2019-billboard-1548.jpg</a></p>
+            <p>font "Karrilee" obtained from <a href="https://www.onlinewebfonts.com/icon"> svg icons</a> is licensed by CC BY 4.0</p>
+            <p>ALL OF THE WRITTEN MATERIAL ABOVE WERE COMPLETELY SOURCED AND TAKEN FROM THE OFFICIAL ARIANA GRANDE FANDOM WITH MINOR MODIFICATIONS. THE LINK TO THE WIKI IS HERE: <a href="https://arianagrande.fandom.com/wiki/Ariana_Grande">https://arianagrande.fandom.com/wiki/Ariana_Grande</a></p>
+        </div>
+        <div class="side_content">
+            <h2 class="toc_subheading">Table of Contents <span style="font-size: 20px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <a class="sound" href="#about"><span style="font-size: 35px;">⋆ </span>About</a>
+            <br>
+            <a class="sound" href="#background"><span style="font-size: 35px;">⋆ </span>Background</a>
+            <br>
+            <a class="sound" href="#commercial_recep"><span style="font-size: 35px;">⋆ </span>Commercial Performance & Critical Reception</a>
+            <br>
+            <a class="sound" href="#sources"><span style="font-size: 35px;">⋆ </span>Sources</a>
+            <br>
+            <h2 class="toc_subheading">Other <span style="font-size: 20px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <a class="sound" href="index.html"><span style="font-size: 35px;">⋆ </span>About Ariana ♡</a>
+            <br>
+            <a class="sound" href="yours_truly.html"><span style="font-size: 35px;">⋆ </span>Yours Truly (Album)</a>
+            <br>
+            <a class="sound" href="my_everything.html"><span style="font-size: 35px;">⋆ </span>My Everything (Album)</a>
+            <br>
+            <a class="sound" href="dangerous_woman.html"><span style="font-size: 35px;">⋆ </span>Dangerous Woman (Album)</a>
+            <br>
+            <a class="sound" href="sweetener.html"><span style="font-size: 35px;">⋆ </span>Sweetener (Album)</a>
+            <br>
+            <a class="sound" href="positions.html"><span style="font-size: 35px;">⋆ </span>Positions (Album)</a>
+            <br>
+            <a class="sound" href="eternal_sunshine.html"><span style="font-size: 35px;">⋆ </span>eternal sunshine (Album)</a>
+            <br>
+            <a class="sound" href="petal.html"><span style="font-size: 35px;">⋆ </span>petal (Album)</a>
+            <br>
+            <h2 class="toc_subheading">External Links <span style="font-size: 20px;">⋆ . ˚</span></h2>
+            <hr>
+            <br>
+            <a class="sound" href="https://www.arianagrande.com/" target="_blank"><span style="font-size: 35px;">⋆ </span>Official Ariana Grande Website</a>
+            <br>
+            <a class="sound" href="https://arianagrandefragrances.com/" target="_blank"><span style="font-size: 35px;">⋆ </span>Official Ariana Grande Fragrance Website</a>
+            <br>
+            <a class="sound" href="https://rembeauty.com/" target="_blank"><span style="font-size: 35px;">⋆ </span>R.E.M Beauty</a>
+            <br>
+            <a class="sound" href="http://facebook.com/arianagrande" target="_blank"><span style="font-size: 35px;">⋆ </span>Ariana Grande on Facebook</a>
+            <br>
+            <a class="sound" href="http://instagram.com/arianagrande" target="_blank"><span style="font-size: 35px;">⋆ </span>Ariana Grande on Instagram</a>
+            <br>
+            <a class="sound" href="http://tiktok.com/@arianagrande" target="_blank"><span style="font-size: 35px;">⋆ </span>Ariana Grande on TikTok</a>
+            <br>
+            <a class="sound" href="https://www.youtube.com/@ArianaGrande" target="_blank"><span style="font-size: 35px;">⋆ </span>Ariana Grande on YouTube</a>
+            <br>
+            <a class="sound" href="https://www.youtube.com/@ArianaGrandeVevo" target="_blank"><span style="font-size: 35px;">⋆ </span>Ariana Grande Vevo Channel</a>
+            <br>
+            <a class="sound" href="https://www.snapchat.com/add/moonlightbae" target="_blank"><span style="font-size: 35px;">⋆ </span>Ariana Grande on Snapchat</a>
+        </div>
+    </div>
 </body>
 </html>
