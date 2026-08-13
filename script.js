@@ -141,7 +141,8 @@ fetch("songs.json")
         
         source_box.innerHTML = `<p>Lyrics + Information Sourced from: <a href="${song["info-src"]}" target="_blank">${song["info-src"]}</a></p>
                                 <p>Streams Sourced from: <a href="https://kworb.net/spotify/artist/66CXWjxzNUsdJxJ2JdwvnR_songs.html" target="_blank">https://kworb.net/spotify/artist/66CXWjxzNUsdJxJ2JdwvnR_songs.html</a></p>
-                                <p>Image Sourced from: <a href="${song["image"]}" target="_blank">${song["image"]}</a></p>`
+                                <p>Image Sourced from: <a href="${song["image"]}" target="_blank">${song["image"]}</a></p>
+                                <p>font "Karrilee" obtained from <a href="https://www.onlinewebfonts.com/icon"> svg icons</a> is licensed by CC BY 4.0</p>`
 
         lyrical_content.innerHTML = lyrics(song["lyrics"]);
         song_cover.src = song["image"]
